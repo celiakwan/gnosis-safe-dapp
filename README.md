@@ -37,35 +37,51 @@ npm start
 ```
 
 1. Open Chrome and go to `http://localhost:3000/`. Current Popcat champion will be empty if no transactions have been executed.
+    <br/>
     ![Initialization](./img/1.png)
 
-2. Connect MetaMask to Rinkeby testnet. To test on Rinkeby, you may probably need to get fake ETH for your accounts from https://faucet.rinkeby.io/. 
+2. Connect MetaMask to Rinkeby testnet. To test on Rinkeby, you may probably need to get fake ETH for your accounts from https://faucet.rinkeby.io/.
+    <br/>
     ![Connect to Rinkeby](./img/2.png)
 
 3. Create a Safe and wait until the transaction is confirmed.
+    <br/>
     ![Create a Safe](./img/3.png)
+    <br/>
     ![Safe address](./img/4.png)
 
 4. Set a new Popcat champion and sign the transaction with Account1.
+    <br/>
     ![Set new champion](./img/5.png)
+    <br/>
     ![Sign with Account1](./img/6.png)
+    <br/>
     ![Signed by Account1](./img/7.png)
 
 5. Select Account2 in MetaMask and sign the transaction with Account2.
+    <br/>
     ![Select Account2](./img/8.png)
+    <br/>
     ![Sign with Account2](./img/9.png)
+    <br/>
     ![Signed by Account2](./img/10.png)
 
 6. Execute the transaction.
+    <br/>
     ![Execute](./img/11.png)
 
 7. Search the transaction in https://rinkeby.etherscan.io/ using the Safe address.
+    <br/>
     ![Search](./img/12.png)
+    <br/>
     ![Search result](./img/13.png)
 
 8. Click Refresh after the transaction is confirmed.
+    <br/>
     ![Refresh](./img/14.png)
 
 9. You can use the same Safe address to sign and execute more transactions.
+    <br/>
     ![Add existing Safe](./img/15.png)
+    <br/>
     ![Execute a new transaction](./img/16.png)
