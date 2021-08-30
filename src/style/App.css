@@ -1,0 +1,74 @@
+.app {
+  text-align: center;
+}
+
+.app-body {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.app-form {
+  min-width: 640px;
+  text-align: left;
+}
+
+.form-container:not(:last-child) {
+  margin-bottom: 50px;
+}
+
+.form-title {
+  font-size: 18px;
+}
+
+.form-row {
+  display: block;
+}
+
+.form-title, .form-row {
+  margin-bottom: 8px;
+}
+
+input {
+  height: 24px;
+  color: #303030;
+  font-size: 14px;
+  padding: 3px 6px;
+}
+
+input:focus{
+  outline: none;
+}
+
+.input-m {
+  width: 180px;
+}
+
+.input-l {
+  width: 360px;
+}
+
+button {
+  min-width: 80px;
+  height: 34px;
+  color: #303030;
+  font-size: 14px;
+  cursor:pointer;
+}
+
+button.btn-padding {
+  margin-left: 5px;
+}
+
+input:disabled, button:disabled {
+  cursor: not-allowed;
+}
+
+.text-highlight {
+  font-size: 14px;
+  color: #fffa99;
+}
